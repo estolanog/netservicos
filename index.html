@@ -1877,11 +1877,12 @@ footer{
       <!-- Vídeo (CENTRO) -->
       <div class="testi-proof-card testi-card reveal" style="transition-delay:.2s; border:none; cursor:default;">
         <div class="ns-video-wrap" id="nsVideoWrap" onclick="nsPlayVideo()">
-          <video id="nsVideo" preload="metadata" playsinline loop>
-            <source src="depoimento.mp4" type="video/mp4">
+          <video id="nsVideo" preload="metadata" playsinline muted controls loop>
+            <source src="./depoimento.mp4" type="video/mp4">
+            Seu navegador não suporta vídeo HTML5.
           </video>
           <div class="ns-play-overlay" id="nsPlayOverlay">
-            <button class="ns-play-btn" aria-label="Reproduzir v&iacute;deo">
+            <button class="ns-play-btn" aria-label="Reproduzir vídeo">
               <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
             </button>
             <span class="ns-play-label">Ver depoimento</span>
